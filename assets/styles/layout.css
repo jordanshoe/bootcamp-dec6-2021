@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    border: 4px solid red;
+    overflow: auto;
+    padding: 20px;
+}
+.header h1{
+    border: 1px dashed green;
+    float: left;
+}
+.header .sns{
+    border: 1px dashed blue;
+    float: right;
+    margin-top: 10px;
+}
+.header .sns a{
+    border: 1px solid black;
+    display: block;
+}
+.header p{
+    border: 1px dashed black;
+    clear: both;
+    display: none;
+}
+.nav{
+    border: 4px solid red;;
+    overflow: auto;
+    padding: 10px 20px;
+}
+.nav img{
+    width: 50px;
+    height: 40px;
+    border: 2px solid blue;
+    float: left;
+    margin-top: 10px;
+}
+.nav ul{
+    border: 1px dashed black;
+    float: right;
+    margin-top: 10px;
+}
+.nav ul li{
+    border: 1px solid green;
+    display: inline-block;
+    width: 100px;
+}
+
+.main{
+    border: 4px solid red;
+    overflow: auto;
+}
+.section{
+    border: 2px dashed blue;
+    width: 70%;
+    /* height: 500px; */
+    float: left;
+}
+/* offset properties= movement of the element
+        left:0;
+        top:0;
+        right:
+        bottom:
+
+*/
+.static{
+    border: 1px solid yellow;
+    width: 100px;
+    height: 100px;
+    position: static;
+    /* left: 100px;
+    top: 50px; no support */
+ 
+}
+.relative{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+    background-color: blue;
+    z-index: 10;
+}
+.fixed{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    background-color: green;
+    z-index: 100;
+}
+.absolute{
+    border: 1px solid purple;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
+    background-color: purple;
+    z-index: 101;
+}
+.relative2{
+    border: 2px solid tomato;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: tomato;
+  
+}
+.sidebar{
+    border: 2px dashed black;
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+.footer{
+    border: 4px solid red;
+    overflow: auto;
+    text-align: center;
+    
+}
+.logo{
+    border: 2px dashed green;
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.copyright{
+    border: 2px dashed blue;
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.sns-footer{
+    border: 2px dashed black;
+    width: 33.33%;
+    float: left;
+    padding: 10px;
+}
+.sns-footer a{
+    border: 1px solid black;
+    width: 80px;
+    display: inline-block;
+}

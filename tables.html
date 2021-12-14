@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Elements</title>
+    <link rel="stylesheet" href="assets/styles/table.css">
+</head>
+<body>
+    <!-- Table elements
+            table = parent element
+            tr = table row (row)
+            th = table header (heading column)
+            td = table data (data column)
+
+            thead = group thead area
+            tbody = group tbody area
+            tfoot - group tfoot area
+
+            attributes:
+                border
+                width
+                height
+                colspan = merge column cells
+                rowspan = merge row cells
+    -->
+    <h2>Table Sample 1</h2>
+    <table class="table1">
+        <tr>
+            <th colspan="4" width="100px" height="50px">Title 1</th>
+            <!-- <th>Title 2</th>
+            <th>Title 3</th>
+            <th>title 4</th> -->
+        </tr>
+        <tr>
+            <th>1</th>
+            <th></th>
+            <th>3</th>
+            <th>4</th>
+        </tr>
+        <tr>
+            <th>5</th>
+            <th>6</th>
+            <th></th>
+            <th>8</th>
+        </tr>
+        <tr>
+            <th>9</th>
+            <th>10</th>
+            <th>11</th>
+            <th></th>
+        </tr>
+    </table>
+
+    <h2>Table Sample 2</h2>
+    <table class="table2">
+        <tr>
+            <td>data 1</td>
+            <td>data 2</td>
+            <td>data 3</td>
+            <td>data 4</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td></td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td></td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td></td>
+            <td>11</td>
+            <td>12</td>
+        </tr>
+    </table>
+
+    <h2>Table Sample 3</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Smith</td>
+            <td>29</td>
+            <td>California</td>
+            <td>john@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Joe Doe</td>
+            <td>36</td>
+            <td>Boston</td>
+            <td>joedoe@yahoo.com</td>
+        </tr>
+        <tr>
+            <td>Jane Dawson</td>
+            <td>21</td>
+            <td>Washington</td>
+            <td>janedawson@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>Table Sample 4</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Contact Numbers</th>
+            <!-- <th></th> -->
+        </tr>
+        <tr>
+            <td>Bill</td>
+            <td>3479232</td>
+            <td>3456757</td>
+        </tr>
+        <tr>
+            <td>steve</td>
+            <td>5645676</td>
+            <td>3434543</td>
+        </tr>
+    </table>
+
+    <h2>Table Sample 5</h2>
+    <table border="1" width="300px">
+        <tr>
+            <th>Name</th>
+            <td>Bill</td>
+            <td>Steve</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Contact Numbers</th>
+            <td>3423434</td>
+            <td>5656456</td>
+        </tr>
+        <tr>
+            <!-- <th></th> -->
+            <td>5345342</td>
+            <td>3242343</td>
+        </tr>
+    </table>
+
+    <h2>Sample table 6</h2>
+    <table border="1">
+        <thead style="background-color: blue;">
+            <tr>
+                <th>Sale 1</th>
+                <th>Sale 2</th>
+                <th>Sale 3</th>
+                <th>Sale 4</th>
+            </tr>
+            <tr>
+                <th>Week 1</th>
+                <th>Week 2</th>
+                <th>week 3</th>
+                <th>Week 4</th>
+            </tr>
+
+        </thead>
+        <tbody style="background-color: yellow;">
+            <tr>
+                <td>item 1</td>
+                <td>item 2</td>
+                <td>item 3</td>
+                <td>item 4</td>
+            </tr>
+            <tr>
+                <td>item 5</td>
+                <td>item 6</td>
+                <td>item 7</td>
+                <td>item 8</td>
+            </tr>
+        </tbody>
+        <tfoot style="background-color: red;">
+            <tr>
+                <th>Total 1</th>
+                <th>Total 2</th>
+                <th>Total 3</th>
+                <th>totak 4</th>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>

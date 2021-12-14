@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+header{
+    border: 3px solid purple;
+    height: 100px;
+}
+nav{
+    border: 3px solid purple;
+    height: 100px;
+}
+main{
+    overflow: auto;
+}
+section{
+    /* border: 3px solid purple; */
+    height: 500px;
+    width: 70%;
+    float: left;
+
+}
+article{
+    border: 3px solid purple;
+    height: 250px;
+}
+aside{
+    border: 3px solid purple;
+    height: 500px;
+    width: 30%;
+    float: left;
+}
+
+footer{
+    border: 3px solid purple;
+    height: 100px;
+}

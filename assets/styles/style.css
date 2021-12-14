@@ -1,0 +1,65 @@
+/* universal selector */
+/* *{
+    color: red;
+} */
+/* element selector */
+
+/* h1{
+    color: green;
+} */
+/* p{
+    background-color: yellowgreen;
+} */
+/* class selector */
+
+/* .header{
+    background-color: orange;
+} */
+/* .menu{
+    background-color: gray;
+} */
+/* .taketo{
+    text-align: center;
+}
+.joe{
+    text-align: right;
+} */
+
+/* id selector */
+
+/* #welcome{
+    background-color: indianred;
+}
+#follow{
+    background-color: indigo;
+} */
+/* and(,) selector */
+/* h1,h2,h4,.joe{
+    background-color: green;
+} */
+
+/* descendant(space) selector */
+/* .header p{
+    background-color: red;
+}
+
+.menu ul li{
+    background-color: green;
+} */
+
+/* hierarchy selector */
+/* 
+#blog{
+    background-color: aqua;
+}
+
+.title{
+    background-color: tomato !important;
+}
+
+h1{
+    background-color: green;
+}
+h1{
+    background-color: indigo !important;
+} */

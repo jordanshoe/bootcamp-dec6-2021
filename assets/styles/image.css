@@ -1,0 +1,23 @@
+
+.header{
+    background-image: url(../images/junk.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 500px;
+}
+
+.section{
+    background:gray url(../images/gar.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+.section .usingPx{
+    width: 500px;
+    height: 500px;
+}
+
+.section .usingP{
+    width: 50%;
+  
+}
